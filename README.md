@@ -60,8 +60,8 @@ streamlit run app.py
 
 👤 Author Details
 
-Name: Sampath Jogi Pusala
-Email: sp8712@srmist.edu.in
+Name: ENIYA V
+Email: ev2238@srmist.edu.in
 
 📌 Note
 
