@@ -1,54 +1,87 @@
-A complete Compiler Design Laboratory Project built using Python and Streamlit. This project combines major compiler design concepts, parsing techniques, automata visualizations, and laboratory experiments into one interactive platform for students and beginners.
 
-📌 Project Overview
 
-Compiler Design is an important subject in Computer Science that explains how programming languages are translated into machine-understandable code.
+A comprehensive **Compiler Design Laboratory Project** built using **Python** and **Streamlit**. This project provides practical implementations of important compiler concepts such as lexical analysis, parsing techniques, grammar processing, automata visualization, and intermediate code generation through an interactive IDE.
 
-This project provides a practical way to understand those concepts through a simple IDE-style interface.
+---
 
-The application includes:
+## 📚 Table of Contents
 
-Lexical Analysis
-FIRST & FOLLOW computation
-Infix to Postfix conversion
-NFA Visualization
-DAG Construction
-LR(0) Parsing Items
-Compiler Lab Programs (1 to 15)
-🚀 Features
-🔹 Interactive User Interface
+- [Overview](#overview)
+- [Features](#features)
+- [Modules Included](#modules-included)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [How to Run](#how-to-run)
+- [Compiler Lab Experiments](#compiler-lab-experiments)
+- [Technologies Used](#technologies-used)
+- [Learning Outcomes](#learning-outcomes)
+- [Future Enhancements](#future-enhancements)
+- [Author](#author)
+- [License](#license)
 
-Developed using Streamlit with sidebar navigation.
+---
 
-🔹 Lexical Analyzer
+## 🎯 Overview
 
-Accepts source code and splits it into tokens using Regular Expressions.
+Compiler Design is a core subject in Computer Science that focuses on translating high-level programming languages into machine-level instructions.
 
-🔹 FIRST & FOLLOW
+This project is developed as an educational tool that combines multiple compiler experiments into one modern platform. Instead of running each program separately, students can explore different compiler concepts through a single Streamlit-based interface.
 
-Calculates FIRST and FOLLOW sets for grammar rules.
+The project demonstrates:
 
-🔹 Infix to Postfix Converter
+- Lexical Analysis  
+- Grammar Processing  
+- Parsing Techniques  
+- Automata Theory  
+- Intermediate Code Concepts  
+- Visual Compiler Structures  
 
+---
+
+## ✨ Features
+
+### 💻 Interactive Web Interface
+Built using Streamlit with sidebar navigation.
+
+### 🔍 Lexical Analyzer
+Breaks source code into tokens such as identifiers, numbers, operators, and keywords.
+
+### 📘 FIRST and FOLLOW
+Computes grammar sets used in parser construction.
+
+### 🔄 Infix to Postfix Converter
 Converts arithmetic expressions into postfix notation.
 
-🔹 NFA Visualizer
+### 🌐 NFA Visualizer
+Displays Non-Deterministic Finite Automata using Graphviz.
 
-Visualizes Non-Deterministic Finite Automata using Graphviz.
+### 🌳 DAG Visualizer
+Shows Directed Acyclic Graph representation.
 
-🔹 DAG Visualizer
+### ⚙️ LR(0) Parser Items
+Displays LR(0) parsing items.
 
-Displays Directed Acyclic Graph for expressions.
+### 📂 Compiler Lab Files
+Contains lab programs from **lab1.py** to **lab15.py**
 
-🔹 LR(0) Items
+---
 
-Shows basic LR(0) parser items.
+## 📁 Modules Included
 
-🔹 Compiler Lab Experiments
+| Module Name | Description |
+|------------|-------------|
+| Lexical Analyzer | Token generation |
+| FIRST & FOLLOW | Grammar set computation |
+| Infix to Postfix | Expression conversion |
+| NFA Visualizer | Automata graph |
+| DAG Visualizer | Expression DAG |
+| LR(0) Items | Parser item display |
 
-Includes all lab files from lab1.py to lab15.py.
+---
 
-📂 Project Structure
+## 📂 Project Structure
+
+```bash
 Compiler-Design/
 │── app.py
 │── first_follow.py
@@ -60,50 +93,52 @@ Compiler-Design/
 │── lab3.py
 │── ...
 │── lab15.py
-🧪 Included Experiments
-Lexical Analyzer
-Regular Expression to NFA
-NFA to DFA
-Left Recursion Elimination
-Left Factoring
-FIRST and FOLLOW
-Predictive Parsing
-Shift Reduce Parsing
-LEADING and TRAILING
-LR(0) Items
-Intermediate Code Generation
-Quadruple / Triple / Indirect Triple
-Code Generation
-DAG Construction
-Storage Allocation Techniques
-⚙️ Technologies Used
+
+
+Compiler Lab Experiments
+| No. | Experiment                   |
+| --- | ---------------------------- |
+| 1   | Lexical Analyzer             |
+| 2   | Regular Expression to NFA    |
+| 3   | NFA to DFA                   |
+| 4   | Left Recursion Elimination   |
+| 5   | Left Factoring               |
+| 6   | FIRST and FOLLOW             |
+| 7   | Predictive Parsing           |
+| 8   | Shift Reduce Parsing         |
+| 9   | LEADING and TRAILING         |
+| 10  | LR(0) Items                  |
+| 11  | Intermediate Code Generation |
+| 12  | Quadruple / Triple           |
+| 13  | Code Generation              |
+| 14  | DAG Construction             |
+| 15  | Storage Allocation           |
+
+
+
+🛠️ Technologies Used
 Python 3.x
 Streamlit
 Graphviz
 Pandas
-🛠️ Installation
-1️⃣ Clone Repository
-git clone https://github.com/your-username/compiler-design.git
-cd compiler-design
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-3️⃣ Run Application
-streamlit run app.py
-▶️ Application Modules
 
-The sidebar menu contains:
 
-Lexical Analyzer
-FIRST & FOLLOW
-Infix to Postfix
-NFA Visualizer
-DAG Visualizer
-LR(0) Items
-🎯 Purpose of Project
+Learning Outcomes
 
-This project is useful for:
+After completing this project, students will understand:
 
-Compiler Design Lab Students
-Engineering Mini Projects
-Academic Demonstrations
-Practical Understanding of Compiler Concepts
+✅ Tokenization process in compilers
+✅ Grammar transformations
+✅ Parsing strategies
+✅ Automata conversions
+✅ Intermediate code generation
+✅ Structure of compiler front-end systems
+
+
+Author
+
+Eniya V
+
+ License
+
+This project is intended for academic and educational purposes.
